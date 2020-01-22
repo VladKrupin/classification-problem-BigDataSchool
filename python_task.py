@@ -84,7 +84,7 @@ y_pred=classifier.predict(X_test)
 from sklearn.metrics import confusion_matrix, recall_score, precision_score, roc_auc_score, accuracy_score
 cm=confusion_matrix(Y_test, y_pred)
 
-print('accuracy=',accuracy_score(Y_test, y_pred)) #0.721
-print('recall=',recall_score(Y_test, y_pred)) #0.51
-print('precision=',precision_score(Y_test, y_pred)) #0.22
-print('roc_auc=',roc_auc_score(Y_test, y_pred)) #0.63
+print('accuracy=',accuracy_score(Y_test, y_pred))
+print('recall=',recall_score(Y_test, y_pred))
+print('precision=',precision_score(Y_test, y_pred))
+print('roc_auc=',roc_auc_score(Y_test, y_pred))
